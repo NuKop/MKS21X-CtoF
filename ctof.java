@@ -6,6 +6,7 @@ public class ctof{
     return (temp-32)/1.8;
   }
   public static void main(String[] args) {
-
+    System.out.println(celsiusToFahrenheit(33.0));
+    System.out.println(fahrenheitToCelsius(100.0));
   }
 }
